@@ -309,3 +309,90 @@ body {
 .login-register p a:hover {
     text-decoration: underline;
 }
+
+.order-history {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.order-history h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #e4e4e4;
+}
+
+#order-list {
+    list-style: none;
+    padding: 0;
+    color: #ccc;
+    font-size: 15px;
+}
+
+#order-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+#clear-orders {
+    margin-top: 15px;
+    background: #a33;
+    transition: background 0.3s ease;
+}
+
+#clear-orders:hover {
+    background: #d44;
+}
+
+.profile-section {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    color: #e4e4e4;
+}
+
+.profile-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.profile-card {
+    text-align: center;
+}
+
+.profile-card i {
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #e4e4e4;
+}
+
+.profile-card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.profile-card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+.profile-card ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.profile-card ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
