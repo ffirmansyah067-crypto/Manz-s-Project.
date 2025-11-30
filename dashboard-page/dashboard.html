@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Manz's Coffee</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#">Dashboard</a>
+            <a href="#">Menu</a>
+            <a href="#">Promo</a>
+            <a href="#">Profile</a>
+        </nav>
+
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="Search coffee...">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </header>
+
+    <div class="background"></div>
+
+    <div class="container">
+        <div class="content">
+            <h2 class="logo"><i class="fa-solid fa-mug-hot"></i> Manz's Coffee</h2>
+
+            <div class="text-sci">
+                <h2>Hello, <span id="username">Guest</span></h2>
+                <p>Welcome back! Ready to order your favorite coffee today?</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="logreg-box">
+            <div class="form-box dashboard">
+                <div class="dashboard-content">
+                    <h2>Our Coffee Menu</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <i class="fa-solid fa-mug-saucer"></i>
+                            <h3>Espresso</h3>
+                            <p>Strong and bold, perfect for a quick boost.</p>
+                            <button class="btn">Order</button>
+                        </div>
+                        <div class="card">
+                            <i class="fa-solid fa-mug-hot"></i>
+                            <h3>Cappuccino</h3>
+                            <p>Rich espresso with steamed milk and foam.</p>
+                            <button class="btn">Order</button>
+                        </div>
+                        <div class="card">
+                            <i class="fa-solid fa-ice-cream"></i>
+                            <h3>Frappe</h3>
+                            <p>Cold, sweet, and refreshing for hot days.</p>
+                            <button class="btn">Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="order-history">
+        <h2>Your Order History</h2>
+        <ul id="order-list">
+            <!-- Pesanan akan muncul di sini -->
+        </ul>
+    </div>
+
+    <div class="order-history">
+        <h2>Your Order History</h2>
+        <ul id="order-list">
+            <!-- Pesanan akan muncul di sini -->
+        </ul>
+        <button id="clear-orders" class="btn">Clear History</button>
+    </div>
+
+    <div class="profile-section">
+        <h2>User Profile</h2>
+        <div class="profile-card">
+            <i class="fa-solid fa-user-circle"></i>
+            <h3 id="profile-name">Guest</h3>
+            <p>Email: <span id="profile-email">-</span></p>
+            <h4>Recent Orders:</h4>
+            <ul id="profile-orders">
+                <!-- Pesanan terakhir akan muncul di sini -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>
